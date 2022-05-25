@@ -23,7 +23,7 @@ for i,j in enumerate(np.array(df[y_name])):
     plt.text(i+1, j, str(int(j)), ha='center', va='bottom', color='k')
 
 plt.xlabel('購買頻度')
-plt.ylabel('累積顧客数')
+plt.ylabel('顧客数')
 
 ax = plt.gca()
 ax.set_facecolor('white')
