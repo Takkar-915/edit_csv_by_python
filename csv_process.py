@@ -17,7 +17,6 @@ df_after = pd.DataFrame()
 #各購買頻度ごとの顧客数を保持するリストを定義
 total_of_customer_per_purchase_flequency = []
 
-#汎用性は低いが、最大購買頻度が23だと分かっている状況なので…len()にすればよかった…
 for i in range(1,24):
     ans = count_customer_per_purchase_flequency(i)
     total_of_customer_per_purchase_flequency.append(ans)
